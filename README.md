@@ -1,6 +1,8 @@
 # SAM-Label
 
-This is an image labeling tool based on Segment-Anything.
+SAM-Label is an efficient tool developed to simplify the object annotation process. 
+This tool utilizes the [Segment-Anything](https://github.com/facebookresearch/segment-anything) to automatically detect and annotate objects in images with just a few mouse clicks.
+
 
 ![Click The Image](assets/SAM-label/click.png)
 
@@ -20,7 +22,7 @@ pip uninstall opencv-python
 pip install opencv-python-headless
 ```
 
-## GettingStarted
+## Getting Started
 
 ### 1. Download Checkpoint
 
@@ -36,3 +38,7 @@ Left mouse to add positive point (yellow point in image), Right mouse to add neg
 
 ![get startted](assets/SAM-label/run.png)
 
+
+## Acknowledgments
+Our SAM-Label is built on top of [Segment-Anything](https://github.com/facebookresearch/segment-anything). 
+We extend our gratitude for their remarkable contributions.
